@@ -112,10 +112,10 @@ const LayoutBase = props => {
         <span className='text-xs font-serif'>
             Powered by{' '}
             <a
-              href="https://github.com/tangly1024/NotionNext"
+              href="https://space.bilibili.com/672353429/"
               className="underline dark:text-gray-300"
             >
-              NotionNext {BLOG.VERSION}
+              LOVE
             </a>
             .
           </span>
