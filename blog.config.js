@@ -1,9 +1,9 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
-  AUTHOR: '冷淘', // 作者
-  BIO: '宇宙级野蛮', // 作者简介
-  LINK: 'https://blog.coldle.ml', // 网站地址
-  KEYWORDS: 'Notion, Coldle, 博客', // 网站关键词 英文逗号隔开
+  AUTHOR: 'mihou', // 作者
+  BIO: '摔倒了爬起来就好', // 作者简介
+  LINK: 'https://wukoo.asia', // 网站地址
+  KEYWORDS: 'Notion, mihou, 博客', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
   process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
@@ -52,10 +52,10 @@ const BLOG = {
   FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || true, // 鼠标点击烟花特效
 
   // 悬浮挂件
-  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || false, // 是否显示宠物挂件
+  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || true, // 是否显示宠物挂件
   WIDGET_PET_LINK:
     'https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
-  WIDGET_PET_SWITCH_THEME: true, // 点击宠物挂件切换博客主题
+  WIDGET_PET_SWITCH_THEME: false, // 点击宠物挂件切换博客主题
 
   // 评论互动 可同时开启多个支持 GISCUS CUSDIS UTTERRANCES GITALK
 
